@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
     intent.putExtra(EXTRA_MESSAGE, message);
     startService(intent);
   }
+
+  public void sendMessageBindService(View view) {
+    Intent intent = new Intent(this, BindServiceWithCpp.class);
+    startService(intent);
+  }
 }

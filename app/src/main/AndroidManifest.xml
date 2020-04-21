@@ -22,9 +22,8 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".LogMessageService"
-            />
-    </application>
+        <service android:name=".LogMessageService" />
 
+        <service android:name=".BindServiceWithCpp" />
+    </application>
 </manifest>

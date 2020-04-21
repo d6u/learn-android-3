@@ -3,4 +3,5 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="button_send_service">Send Service</string>
+    <string name="button_send_service_cpp">Send Service C++</string>
 </resources>
