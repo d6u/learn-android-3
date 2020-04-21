@@ -2,4 +2,5 @@
     <string name="app_name">Learn Android 3</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="button_send_service">Send Service</string>
 </resources>

@@ -13,8 +13,7 @@
 
         <activity
             android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -22,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".LogMessageService"
+            />
     </application>
 
 </manifest>
